@@ -150,7 +150,12 @@ using namespace cv;
     */
 	int getNumberFromName(string name, int i);
 
-///////////////////////////////////////////////////////////////////////////////////////////////////
+    //! The Main function which handels all functions of the processor three.
+    /*!
+      \param argc amount of input arguments.
+      \param argv[] path to the frames folder.
+      \return bool indicates if everything was successful.
+    */
 int main(int argc, const char* argv[]) {
 	//// VARIABLES ////
 	Mat imgFrame1, imgFrame2, imgDifference, imgFrame1Copy, imgFrame2Copy, structuringElement5x5;
