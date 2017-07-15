@@ -1,6 +1,11 @@
 var NAVTREE =
 [
   [ "Fast and Curious", "index.html", [
+    [ "Aim", "index.html#Aim", null ],
+    [ "Hardware", "index.html#Hardware", null ],
+    [ "Software", "index.html#Software", null ],
+    [ "Tests", "index.html#Tests", null ],
+    [ "Prospect", "index.html#Prospect", null ],
     [ "Files", null, [
       [ "File List", "files.html", "files" ],
       [ "File Members", "globals.html", [
