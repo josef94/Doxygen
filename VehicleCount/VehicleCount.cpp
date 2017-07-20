@@ -439,7 +439,7 @@ int saveVehicle(vector<Blob> &blobs, Mat &imgFrame2Copy, Mat &imgFrame2Copy2, in
 				Mat blur = temp1 - temp2;
 				imwrite(pathSaveROIPicture + blurN, blur);
 
-				writeCSV(countIndex, folder, fileName, getNumberFromName(filenames[k], k), relevantPictures, direction, vehicleCount, cropN, blurN, picN, roi);
+				writeCSV(countIndex, folder, fileName, getNumberFromName(filenames[k], k), relevantPictures, direction, cropN, blurN, picN, roi);
 				}
 
 		}
